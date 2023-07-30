@@ -1,0 +1,84 @@
+body {
+    background-color:bisque;
+}
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&family=Varela+Round&display=swap" rel="stylesheet"> */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:gray
+}
+li ,a ,button {
+    font-weight: 500;
+    font-size: 16px;
+    color:#edf0f1;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+.logo {
+    cursor: pointer;
+    padding-left: 20px;
+    width: 100px;
+    margin-left: 30px;
+    
+}
+.nav_link {
+    list-style: none;
+}
+.nav_link li {
+    display: inline-block;
+    padding: 0px 20px ;
+}
+.nav_link li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_link li a:hover {
+    color:#0088a9
+}
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169, 1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    padding-right: 30px;
+    margin-right: 60px;
+}
+button:hover{
+    background-color: rgba(0,136,169, 0.8);
+
+}
+ /********************************************/
+ .homeContent {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 70%;
+    color: #edf0f1;
+ }
+ .Home_header{
+    font-size:45px;
+    line-height: 2;
+  }
+ 
+/*///////////////////////////////////////////////*/
+.Weather_data {
+    border: 2px solid #287386;
+    padding: 20px;
+    /* width: 300px; */
+    text-align: center;
+    margin: auto;
+}
+.Weather_data h2 {
+    line-height: 1.6;
+}
